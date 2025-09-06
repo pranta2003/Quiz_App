@@ -37,14 +37,15 @@
       <li>✅ <i class="fa fa-mobile-alt"></i> Fully responsive & animated UI</li>
     </ul>
 
-    <!-- Technologies -->
-    <h2 style="color:#6c8cff; margin-top:30px;">💻 Technologies Used:</h2>
+ <!-- Technologies -->
+ <h2 style="color:#6c8cff; margin-top:30px;">💻 Technologies Used:</h2>
     <p style="font-size:1em; line-height:1.6;">
       HTML5, CSS3 (animations & gradients), JavaScript (vanilla), <strong>localStorage API</strong>
     </p>
 
     <!-- Installation -->
-    <h2 style="color:#6c8cff; margin-top:30px;">⚡ Installation & Usage:</h2>
+
+  <h2 style="color:#6c8cff; margin-top:30px;">⚡ Installation & Usage:</h2>
     <ol style="line-height:1.8; font-size:1em;">
       <li>Clone or download this repository.</li>
       <li>Open <code>index.html</code> in your browser.</li>
@@ -53,12 +54,12 @@
     </ol>
 
     <!-- Screenshots -->
-    <h2 style="color:#6c8cff; margin-top:30px;">📸 Screenshots:</h2>
+   <h2 style="color:#6c8cff; margin-top:30px;">📸 Screenshots:</h2>
     <p style="font-size:1em;">(Add screenshots of your Quiz App here for better GitHub presentation)</p>
+![quiz](https://github.com/user-attachments/assets/a94fc5f7-fff6-4cf8-a3b4-a7cb834f92f0)
+<p>Quiz Formate is</p>
+![quiz_question](https://github.com/user-attachments/assets/4646dcef-8711-4427-9e6e-82f617cd65db)
 
-    <!-- License -->
-    <h2 style="color:#6c8cff; margin-top:30px;">📄 License:</h2>
-    <p style="font-size:1em;">MIT License — Free to use and modify.</p>
 
   </div>
 </div>
