@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App — HTML/CSS/JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="app">
+    <!-- Header -->
+    <header class="app__header">
+      <h1 class="brand">🧠 Quiz App</h1>
+      <div class="scoreboard">
+        <div class="scoreboard__item">Score: <span id="score">0</span></div>
+        <div class="scoreboard__item">Question: <span id="qIndex">0</span>/<span id="qTotal">0</span></div>
+        <div class="scoreboard__item">Best: <span id="bestScore">0</span></div>
+      </div>
+    </header>
+
+    <!-- Start Screen -->
+    <section id="startScreen" class="card show">
+      <h2>Welcome, Pranta!</h2>
+      <p>Test your knowledge with timed multiple-choice questions. You have <strong id="secsPerQ">15</strong> seconds per question.</p>
+      <div class="controls">
+        <label class="inline">
+          <span>Number of Questions</span>
+          <select id="numQuestions">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+          </select>
+        </label>
+
+        <label class="inline">
+          <span>Shuffle Questions</span>
+          <input id="shuffleToggle" type="checkbox" checked />
+        </label>
+
+        <label class="inline">
+          <span>Time per Question (seconds)</span>
+          <input id="timePerQuestion" type="number" min="5" max="60" value="15" />
+        </label>
+      </div>
+
+      <button id="startBtn" class="btn primary">Start Quiz</button>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="quizScreen" class="card">
+      <div class="timer">
+        <div class="timer__label">Time Left</div>
+        <div class="timer__value" id="timeLeft">15</div>
+        <div class="progress">
+          <div id="timeBar" class="progress__bar" style="width:100%"></div>
+        </div>
+      </div>
+
+      <div class="question-wrap">
+        <h2 id="questionText">Question text goes here</h2>
+        <ul id="options" class="options"></ul>
+      </div>
+
+      <div class="nav">
+        <button id="nextBtn" class="btn" disabled>Next</button>
+      </div>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="resultScreen" class="card">
+      <h2>Results</h2>
+      <p>You scored <strong id="finalScore">0</strong> out of <strong id="finalTotal">0</strong>.</p>
+      <p class="best" id="bestBadge" hidden>🎉 New High Score! Saved on this device.</p>
+
+      <div id="review" class="review"></div>
+
+      <div class="result-actions">
+        <button id="restartBtn" class="btn">Restart</button>
+        <button id="playAgainBtn" class="btn primary">Play Again</button>
+      </div>
+    </section>
+
+    <footer class="app__footer">
+      <p>Built with ❤️ using HTML, CSS & JavaScript. Save this as a GitHub repo.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
