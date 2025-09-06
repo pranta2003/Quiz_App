@@ -26,21 +26,20 @@
       <li>💡 Fully responsive and animated UI</li>
     </ul>
     
-    <h2 style="color:#6c8cff; margin-top:30px;">Technologies Used:</h2>
+   <h2 style="color:#6c8cff; margin-top:30px;">Technologies Used:</h2>
     <p style="font-size:1em; line-height:1.6;">HTML5, CSS3 (with animations & gradients), JavaScript (vanilla), localStorage API.</p>
     
-    <h2 style="color:#6c8cff; margin-top:30px;">Installation & Usage:</h2>
+  <h2 style="color:#6c8cff; margin-top:30px;">Installation & Usage:</h2>
     <ol style="line-height:1.6; font-size:1em;">
       <li>Clone or download this repository.</li>
       <li>Open <code>index.html</code> in your favorite browser.</li>
       <li>Customize settings: number of questions, time per question, shuffle.</li>
       <li>Start quiz and test your knowledge!</li>
     </ol>
-    
-    <h2 style="color:#6c8cff; margin-top:30px;">Screenshots:</h2>
+        <h2 style="color:#6c8cff; margin-top:30px;">Screenshots:</h2>
     <p style="font-size:1em;">(Add screenshots here for better GitHub presentation)</p>
     
-    <h2 style="color:#6c8cff; margin-top:30px;">License:</h2>
+   <h2 style="color:#6c8cff; margin-top:30px;">License:</h2>
     <p style="font-size:1em;">MIT License — Free to use and modify.</p>
   </div>
 
