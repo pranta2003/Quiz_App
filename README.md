@@ -1,145 +1,55 @@
-# 🧠 Quiz App — HTML, CSS & JavaScript
+<!-- Animated & Stylish README for Quiz App -->
 
-![Quiz App Banner](https://user-images.githubusercontent.com/yourusername/quiz-app-banner.png)  
-*Your interactive multiple-choice Quiz App with timer, score tracking, and high score saving!*
+<div style="text-align:center; font-family:'Inter', sans-serif; color:#e6e9f2; background:#0f1220; padding:30px; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,.35);">
 
----
+  <h1 style="font-size:3em; margin-bottom:10px; background:linear-gradient(90deg, #6c8cff, #5375ff); -webkit-background-clip:text; color:transparent; animation:glow 2s ease-in-out infinite alternate;">🧠 Quiz App</h1>
+  
+  <p style="font-size:1.2em; color:#9aa3b2; max-width:700px; margin:auto;">Test your knowledge in HTML, CSS & JavaScript with this fully interactive, timed multiple-choice quiz! Track your score, review answers, and challenge yourself with different numbers of questions.</p>
+  
+  <div style="margin-top:25px;">
+    <a href="#" style="text-decoration:none; margin:0 10px;">
+      <button style="background:linear-gradient(90deg,#6c8cff,#5375ff); color:white; padding:12px 24px; border:none; border-radius:12px; font-weight:600; cursor:pointer; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">⭐ Star on GitHub</button>
+    </a>
+    <a href="#" style="text-decoration:none; margin:0 10px;">
+      <button style="background:#0c1021; color:#6c8cff; border:1px solid #6c8cff; padding:12px 24px; border-radius:12px; font-weight:600; cursor:pointer; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">💻 Live Demo</button>
+    </a>
+  </div>
+  
+  <div style="margin-top:40px; text-align:left; max-width:720px; margin:auto;">
+    <h2 style="color:#6c8cff;">Features:</h2>
+    <ul style="line-height:1.6; font-size:1em;">
+      <li>⏱️ Timed questions with countdown and progress bar</li>
+      <li>🎯 Multiple-choice questions (10 default, configurable)</li>
+      <li>🔀 Option to shuffle questions each game</li>
+      <li>🏆 Score tracking and High Score saved in localStorage</li>
+      <li>📖 Review all questions at the end</li>
+      <li>💡 Fully responsive and animated UI</li>
+    </ul>
+    
+    <h2 style="color:#6c8cff; margin-top:30px;">Technologies Used:</h2>
+    <p style="font-size:1em; line-height:1.6;">HTML5, CSS3 (with animations & gradients), JavaScript (vanilla), localStorage API.</p>
+    
+    <h2 style="color:#6c8cff; margin-top:30px;">Installation & Usage:</h2>
+    <ol style="line-height:1.6; font-size:1em;">
+      <li>Clone or download this repository.</li>
+      <li>Open <code>index.html</code> in your favorite browser.</li>
+      <li>Customize settings: number of questions, time per question, shuffle.</li>
+      <li>Start quiz and test your knowledge!</li>
+    </ol>
+    
+    <h2 style="color:#6c8cff; margin-top:30px;">Screenshots:</h2>
+    <p style="font-size:1em;">(Add screenshots here for better GitHub presentation)</p>
+    
+    <h2 style="color:#6c8cff; margin-top:30px;">License:</h2>
+    <p style="font-size:1em;">MIT License — Free to use and modify.</p>
+  </div>
 
-## 🚀 Features
+</div>
 
-- **Timed Questions:** Answer each question in a set number of seconds.  
-- **Score Tracking:** Get instant feedback on your score.  
-- **High Score:** Your best score is saved locally in `localStorage`.  
-- **Question Shuffle:** Enable or disable random questions for each quiz.  
-- **Multiple Questions Count:** Choose 5, 10, or 15 questions per quiz.  
-- **Review Answers:** See correct and incorrect answers at the end.  
-- **Responsive Design:** Works on mobile, tablet, and desktop.  
-- **Lightweight & Fast:** Pure HTML, CSS, and JavaScript — no frameworks needed.  
-
----
-
-## 🎨 Screenshots
-
-**Start Screen**  
-![Start Screen](https://user-images.githubusercontent.com/yourusername/quiz-start.png)  
-
-**Quiz Screen**  
-![Quiz Screen](https://user-images.githubusercontent.com/yourusername/quiz-play.png)  
-
-**Result & Review**  
-![Result Screen](https://user-images.githubusercontent.com/yourusername/quiz-result.png)  
-
----
-
-## 🛠️ Built With
-
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (ES6+)
-- LocalStorage (for high scores)
-- Google Fonts (Inter)
-
----
-
-## ⚡ How to Run
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/quiz-app.git
-Open index.html in your browser
-
-Start quizzing!
-
-Optional: Enable GitHub Pages to host it online.
-Settings → Pages → Source → main branch → /root → Save
-
-💡 Usage
-Set the number of questions you want to attempt.
-
-Toggle shuffle questions for a random quiz.
-
-Set time per question to challenge yourself.
-
-Click Start Quiz to begin.
-
-Select the correct answer for each question before the timer ends.
-
-Click Next to go to the next question.
-
-View your score and review at the end.
-
-Play again to beat your high score!
-
-📈 Score System
-Correct answer: +1 point
-
-Incorrect/Unanswered: 0 point
-
-High Score is saved automatically in your browser.
-
-🎯 Goals
-Improve JavaScript & DOM manipulation skills
-
-Learn interactive UI design with CSS animations
-
-Create a fully functional, front-end project for your portfolio
-
-✨ Future Enhancements
-Add categories (Science, Math, Tech, etc.)
-
-Add animated confetti on high score
-
-Add sound effects for correct/wrong answers
-
-Add leaderboard using Firebase or backend
-
-📌 Credits
-Designed & Developed by Pranta Kumer Pandit
-
-Font: Inter
-
-Inspired by fun interactive quizzes online
-
-💻 Demo
-Click here to try the live demo (GitHub Pages)
-
-🏷️ Badges
-
-
-
-
-📬 Contact
-Twitter: @yourhandle
-
-LinkedIn: linkedin.com/in/yourprofile
-
-Portfolio: yourportfolio.com
-
-“Learning by building real projects is the fastest way to grow as a developer.” — Pranta Kumer Pandit
-
-yaml
-Copy code
-
----
-
-This README includes:  
-
-- **Structured sections** (Features, Screenshots, Usage, Future Enhancements)  
-- **Badges** for GitHub metrics  
-- **Demo link placeholder** for GitHub Pages  
-- **Markdown “animations”** via GIF placeholders  
-- **Professional tone & branding**  
-
----
-
-If you want, I can **also create a small GIF animation of the quiz in action** and add it to this README to make it **really visually interactive** for GitHub.  
-
-Do you want me to do that next?
-
-
-
-
-
-
-
-Ask ChatGPT
+<style>
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #6c8cff, 0 0 10px #6c8cff, 0 0 20px #6c8cff; }
+  50% { text-shadow: 0 0 15px #5375ff, 0 0 25px #5375ff, 0 0 35px #6c8cff; }
+  100% { text-shadow: 0 0 5px #6c8cff, 0 0 10px #5375ff, 0 0 20px #6c8cff; }
+}
+</style>
